@@ -1,0 +1,17 @@
+{
+    "firebase initializeApp boilerplate code": {
+        "prefix": "fbc-initApp",
+        "body": [
+            "const app = initializeApp({",
+            "\tapiKey: $apiKey,",
+            "\tauthDomain: $authDomain,",
+            "\tprojectId: $projectId,",
+            "\tstorageBucket: $storageBucket,",
+            "\tmessagingSenderId: $messagingSenderId,",
+            "\tappId: $appId,",
+            "\tmeasurementId: $measurementId,",
+            "})",
+        ],
+        "description": "firebase initializeApp boilerplate code"
+    },
+}

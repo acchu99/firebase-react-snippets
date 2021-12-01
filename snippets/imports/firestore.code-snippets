@@ -1,0 +1,18 @@
+{
+    // Part 0: Basic Import
+    "Import firebase firestore": {
+        "prefix": "fbi-firestore",
+        "body": [
+            "import {} from \"@firebase/firestore\";",
+        ],
+        "description": "Import firebase firestore"
+    },
+    // Part 1: Other Imports
+    "Import firebase doc": {
+        "prefix": "fbi-doc",
+        "body": [
+            "import { doc, setDoc } from \"@firebase/firestore\"",
+        ],
+        "description": "Import firebase doc"
+    },
+}
