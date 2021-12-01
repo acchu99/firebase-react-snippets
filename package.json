@@ -3,12 +3,12 @@
     "displayName": "Firebase-React Snippets",
     "description": "Firebase v9 snippets for React and frameworks based on React",
     "version": "1.0.0",
-    "publisher": "Ashwin",
+    "publisher": "acchu99",
     "repository": {
         "type": "git",
         "url": "https://github.com/Ashwin1999/firebase-react-snippets"
     },
-    "icon": "./images/icon.png",
+    "icon": "images/icon.png",
     "engines": {
         "vscode": "^1.62.0"
     },
