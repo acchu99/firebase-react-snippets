@@ -2,7 +2,7 @@
 
 This extension for Visual Studio Code adds snippets for Firebase for JavaScript and TypeScript.
 
-![demo](images/demo.gif)
+![demo](https://raw.githubusercontent.com/Ashwin1999/firebase-react-snippets/main/images/demo.gif)
 
 ## Features
 
