@@ -1,4 +1,4 @@
-# VS Code ES7 Firebase-React snippets
+# VS Code Firebase-React snippets
 
 This extension for Visual Studio Code adds snippets for Firebase for JavaScript and TypeScript.
 
