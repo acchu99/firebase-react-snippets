@@ -8,11 +8,18 @@
         "description": "Import firebase firestore"
     },
     // Part 1: Other Imports
-    "Import firebase doc": {
-        "prefix": "fbi-doc",
+    "Import firebase getDocs": {
+        "prefix": "fbi-getDocs",
         "body": [
-            "import { doc, setDoc } from \"@firebase/firestore\"",
+            "import { getDocs } from \"@firebase/firestore\"",
         ],
-        "description": "Import firebase doc"
+        "description": "Import firebase getDocs"
+    },
+    "Import firebase collection": {
+        "prefix": "fbi-collection",
+        "body": [
+            "import { collection } from \"@firebase/firestore\"",
+        ],
+        "description": "Import firebase collection"
     },
 }

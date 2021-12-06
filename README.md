@@ -31,23 +31,39 @@ This extension provides a collection of easy-to-use firebase snippets for react 
 | `fbi-signInWithPopup`                | imports signInWithPopup module from firebase/auth                |
 | `fbi-signOut`                        | imports signOut module from firebase/auth                        |
 | `fbi-onAuthStateChanged`             | imports onAuthStateChanged module from firebase/auth             |
-| `fbi-doc`                            | imports doc module from firebase/firestore                       |
+| `fbi-getDocs`                        | imports getDocs module from firebase/firestore                   |
+| `fbi-collection`                     | imports collection module from firebase/firestore                |
 
 #### Firebase Create Snippets
 
-| Snippet                  | Purpose                                                                 |
-| ------------------------ | ----------------------------------------------------------------------- |
-| `fbc-initApp`            | provides a boilerplate code to initialize firebase app for your project |
-| `fbc-regUserEP`          | provides a function to register users using email and password          |
-| `fbc-emailPasswordLogin` | provides a function to login users using email and password             |
-| `fbc-googleLogin`        | provides a function to sign in users using google                       |
-| `fbc-onAuthStateChanged` | provides a hook to monitor if the user is logged in or not              |
-| `fbc-logoutUser`         | provides a function to logout signed in user                            |
+| Snippet                  | Purpose                                                                                                               |
+| ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| `fbc-initApp`            | provides a boilerplate code to initialize firebase app for your project                                               |
+| `fbc-regUserEP`          | provides a function to register users using email and password                                                        |
+| `fbc-emailPasswordLogin` | provides a function to login users using email and password                                                           |
+| `fbc-googleLogin`        | provides a function to sign in users using google                                                                     |
+| `fbc-onAuthStateChanged` | provides a hook to monitor if the user is logged in or not                                                            |
+| `fbc-logoutUser`         | provides a function to logout signed in user                                                                          |
+| `fbc-collectionRef`      | creates a reference to a firestore collection                                                                         |
+| `fbc-getCollectionData`  | provides an async function to get all the data stored in your collection. (best to use this inside an useEffect hook) |
 
 ## Versions
 
 ### 1.0.0
 
 Initial release of Firebase-React Snippets. Not all features from firebase are provided as snippets yet. Only the most common features are implemented for now.
+
+### 1.0.1
+
+Added the following new snippets
+
+1. fbi-collection
+2. fbc-collectionRef
+3. fbc-getCollectionData
+
+Updated the following snippets
+
+1. Removed fbi-doc and added fbi-getDocs
+2. Updated fbc-initApp --- added full boilerplate code for initializing firebase app with auth, firestore and storage
 
 ---
