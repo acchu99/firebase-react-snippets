@@ -33,19 +33,34 @@ This extension provides a collection of easy-to-use firebase snippets for react 
 | `fbi-onAuthStateChanged`             | imports onAuthStateChanged module from firebase/auth             |
 | `fbi-getDocs`                        | imports getDocs module from firebase/firestore                   |
 | `fbi-collection`                     | imports collection module from firebase/firestore                |
+| `fbi-doc`                            | imports doc module from firebase/firestore                       |
+| `fbi-getDoc`                         | imports doc and getDoc modules from firebase/firestore           |
+| `fbi-setDoc`                         | imports setDoc module from firebase/firestore                    |
+| `fbi-addDoc`                         | imports addDoc module from firebase/firestore                    |
+| `fbi-queryWhere`                     | imports query and where modules from firebase/firestore          |
+| `fbi-updateDoc`                      | imports updateDoc module from firebase/firestore                 |
+| `fbi-deleteDoc`                      | imports deleteDoc module from firebase/firestore                 |
 
 #### Firebase Create Snippets
 
-| Snippet                  | Purpose                                                                                                               |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| `fbc-initApp`            | provides a boilerplate code to initialize firebase app for your project                                               |
-| `fbc-regUserEP`          | provides a function to register users using email and password                                                        |
-| `fbc-emailPasswordLogin` | provides a function to login users using email and password                                                           |
-| `fbc-googleLogin`        | provides a function to sign in users using google                                                                     |
-| `fbc-onAuthStateChanged` | provides a hook to monitor if the user is logged in or not                                                            |
-| `fbc-logoutUser`         | provides a function to logout signed in user                                                                          |
-| `fbc-collectionRef`      | creates a reference to a firestore collection                                                                         |
-| `fbc-getCollectionData`  | provides an async function to get all the data stored in your collection. (best to use this inside an useEffect hook) |
+| Snippet                   | Purpose                                                                                                               |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| `fbc-initApp`             | provides a boilerplate code to initialize firebase app for your project                                               |
+| `fbc-regUserEP`           | provides a function to register users using email and password                                                        |
+| `fbc-emailPasswordLogin`  | provides a function to login users using email and password                                                           |
+| `fbc-googleLogin`         | provides a function to sign in users using google                                                                     |
+| `fbc-onAuthStateChanged`  | provides a hook to monitor if the user is logged in or not                                                            |
+| `fbc-logoutUser`          | provides a function to logout signed in user                                                                          |
+| `fbc-collectionRef`       | creates a reference to a firestore collection                                                                         |
+| `fbc-getCollectionData`   | provides an async function to get all the data stored in your collection. (best to use this inside an useEffect hook) |
+| `fbc-docRef`              | get document reference                                                                                                |
+| `fbc-getDoc`              | get a specific document from collection                                                                               |
+| `fbc-setDoc`              | add a document to collection using setDoc                                                                             |
+| `fbc-updateSetDoc`        | update a document using setDoc                                                                                        |
+| `fbc-queryCollectionData` | query a collection using query and where                                                                              |
+| `fbc-addDoc`              | add a document to collection using addDoc                                                                             |
+| `fbc-updateDoc`           | update a document to collection using updateDoc                                                                       |
+| `fbc-deleteDoc`           | delete a document using deleteDoc                                                                                     |
 
 ## Versions
 
@@ -55,15 +70,10 @@ Initial release of Firebase-React Snippets. Not all features from firebase are p
 
 ### 1.0.1
 
-Added the following new snippets
+Added firestore snippets. Updated fbc-initApp.
 
-1. fbi-collection
-2. fbc-collectionRef
-3. fbc-getCollectionData
+### 1.0.2
 
-Updated the following snippets
-
-1. Removed fbi-doc and added fbi-getDocs
-2. Updated fbc-initApp --- added full boilerplate code for initializing firebase app with auth, firestore and storage
+Added more firestore snippets to perform CRUD operations.
 
 ---
