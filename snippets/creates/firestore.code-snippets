@@ -24,7 +24,7 @@
   // v1.0.2
   "get document reference": {
     "prefix": "fbc-docRef",
-    "body": ["const docRef = doc(db, \"$collectionName\", \"$documentId);\""],
+    "body": ["const docRef = doc(db, \"$collectionName\", \"$documentId\");"],
     "description": "get document reference"
   },
   "get a specific document from collection": {

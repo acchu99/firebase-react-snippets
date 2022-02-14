@@ -13,3 +13,7 @@ All notable changes to the "firebase-react-snippets" extension will be documente
 ### [1.0.2]
 
 - Added more firestore snippets to perform CRUD operations.
+
+### [1.0.3]
+
+- Fixed bug in "fbc-docRef" snippet

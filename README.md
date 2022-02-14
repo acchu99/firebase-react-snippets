@@ -76,4 +76,8 @@ Added firestore snippets. Updated fbc-initApp.
 
 Added more firestore snippets to perform CRUD operations.
 
+### 1.0.3
+
+Fixed bug in "fbc-docRef" snippet
+
 ---
