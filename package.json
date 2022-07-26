@@ -2,7 +2,7 @@
     "name": "firebase-react-snippets",
     "displayName": "Firebase-React Snippets",
     "description": "Firebase v9 snippets for React and frameworks based on React",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "acchu99",
     "repository": {
         "type": "git",
