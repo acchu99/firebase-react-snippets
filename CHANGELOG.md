@@ -17,3 +17,8 @@ All notable changes to the "firebase-react-snippets" extension will be documente
 ## [1.0.3]
 
 - Fixed bug in "fbc-docRef" snippet
+
+## [1.0.4]
+
+- added "onSnapshot" snippet
+- updated import paths

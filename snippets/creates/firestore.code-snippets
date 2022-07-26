@@ -74,5 +74,14 @@
     "prefix": "fbc-deleteDoc",
     "body": ["await deleteDoc($docRef);"],
     "description": "delete a document using deleteDoc"
+  },
+  "listen to document updates in real-time": {
+    "prefix": "fbc-onSnapshot",
+    "body": [
+      "onSnapshot($docRef, snapshot => {",
+      "\tconst data = snapshot.data()",
+      "})"
+    ],
+    "description": "listen to a document with the onSnapshot"
   }
 }

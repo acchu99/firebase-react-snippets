@@ -40,6 +40,7 @@ This extension provides a collection of easy-to-use firebase snippets for react 
 | `fbi-queryWhere`                     | imports query and where modules from firebase/firestore          |
 | `fbi-updateDoc`                      | imports updateDoc module from firebase/firestore                 |
 | `fbi-deleteDoc`                      | imports deleteDoc module from firebase/firestore                 |
+| `fbi-onSnapshot`                     | imports onSnapshot module from firebase/firestore                |
 
 #### Firebase Create Snippets
 
@@ -61,6 +62,7 @@ This extension provides a collection of easy-to-use firebase snippets for react 
 | `fbc-addDoc`              | add a document to collection using addDoc                                                                             |
 | `fbc-updateDoc`           | update a document to collection using updateDoc                                                                       |
 | `fbc-deleteDoc`           | delete a document using deleteDoc                                                                                     |
+| `fbc-onSnapshot`          | listen to real-time document update                                                                                   |
 
 ## Versions
 
@@ -78,6 +80,10 @@ Added more firestore snippets to perform CRUD operations.
 
 ### 1.0.3
 
-Fixed bug in "fbc-docRef" snippet
+Fixed bug in "fbc-docRef" snippet.
+
+### 1.0.4
+
+Added "onSnapshot" snippet and updated import paths.
 
 ---
